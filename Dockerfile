@@ -1,3 +1,3 @@
 FROM nginx:latest
 
-RUN echo "Hello World" > /usr/share/nginx/html/index.html
+RUN echo "Hello World im in cicd" > /usr/share/nginx/html/index.html
