@@ -16,7 +16,7 @@ Whenever a push request is made in the GitHub Repository, it will automatically 
 1. Create Github Repository (https://github.com/lesteryap/ShowAndTellApril13Test)
 2. Create an Artifact Registry in GCP:
     - Format: docker
-	  - Region: asia-souteastasia1(Singapore)
+    - Region: asia-souteastasia1(Singapore)
 3. Go to IAM and create service account in GCP:
     - Provide and add necessary permission to this service account (Artifact Registry Repository Administrator, Cloud run admin, etc.)
 4. Push website code to Github Repository (Html/css/js)
