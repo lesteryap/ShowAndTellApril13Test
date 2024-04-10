@@ -34,4 +34,4 @@ jobs:
           service: nginx
           region: asia-southeast1
           # NOTE: If using a pre-built image, update the image name here
-          image: asia-southeast1-docker.pkg.dev/$GOOGLE_PROJECT/demo/nginx:latest
+          image: asia-southeast1-docker.pkg.dev/${{ secrets.GOOGLE_PROJECT }}/demo/nginx:latest
