@@ -1,6 +1,7 @@
 # Show And Tell, April 13th 2024
 
 ## Ideation
+![alt text](images/diagram.png)
 I want to automate the build, push, and deploy process of a website.
 Whenever a push request is made in the GitHub Repository, it will automatically be deployed into a live website.
 
